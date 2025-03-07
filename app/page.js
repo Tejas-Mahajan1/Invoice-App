@@ -28,7 +28,7 @@ export default function Home() {
     taxPer: "",
   });
   const [editingIndex, setEditingIndex] = useState(null);
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   const theme = createTheme({
     palette: {
